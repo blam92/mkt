@@ -4,3 +4,8 @@ bin/*
 pip-selfcheck.json
 .DS_Store
 .Python
+.gitignore
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
